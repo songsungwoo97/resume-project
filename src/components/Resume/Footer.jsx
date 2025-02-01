@@ -23,7 +23,7 @@ export const Footer = () => {
   }
 
   return (
-    <footer className="mt-8 text-center">
+    <footer className="mt-2 text-center grid grid-cols-4 gap-4">
       {apiData?.img && (
         <img
           src={`data:image/jpeg;base64,${apiData.img}`}
@@ -31,7 +31,7 @@ export const Footer = () => {
           className="mx-auto mb-4"
         />
       )}
-      {apiData?.text && <p className="text-lg italic">{apiData.text}</p>}
+      {apiData?.text && <p className="col-span-3 italic">{apiData.text}</p>}
     </footer>
   );
 };

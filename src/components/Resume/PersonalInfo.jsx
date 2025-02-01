@@ -21,7 +21,7 @@ export const PersonalInfo = () => {
         </div>
         <div className="flex justify-center">
           <img
-            src="/src/assets/song.jpg"
+            src="/song.jpg"
             alt="증명사진"
             className="w-32 h-40 border-2 border-gray-300"
           />

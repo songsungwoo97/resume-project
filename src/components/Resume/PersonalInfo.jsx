@@ -10,13 +10,15 @@ export const PersonalInfo = () => {
         <div className="col-span-3">
           <div className="grid grid-cols-3 gap-2">
             <div className="font-semibold">성명</div>
-            <div className="col-span-2">송성우</div>
+            <div className="col-span-2 text-left">송성우</div>
             <div className="font-semibold">생년월일</div>
-            <div className="col-span-2">1997.04.12</div>
+            <div className="col-span-2 text-left">1997.04.12</div>
             <div className="font-semibold">연락처</div>
-            <div className="col-span-2">010-3927-0412</div>
+            <div className="col-span-2 text-left">010-3927-0412</div>
             <div className="font-semibold">이메일</div>
-            <div className="col-span-2">songsungwoo9200@gmail.com</div>
+            <div className="col-span-2 text-left">
+              songsungwoo9200@gmail.com
+            </div>
           </div>
         </div>
         <div className="flex justify-center">

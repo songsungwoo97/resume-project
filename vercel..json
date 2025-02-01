@@ -1,0 +1,8 @@
+{
+  "rewrites": [
+    {
+      "source": "/BTLMS/:path*",
+      "destination": "http://121.130.28.118:8080/BTLMS/:path*"
+    }
+  ]
+}

@@ -12,12 +12,12 @@ export const Education = () => {
           <h3 className="font-semibold mb-2 text-center">학력사항</h3>
           <div className="space-y-2">
             <div className="text-center">
-              <div>홍익대학교 컴퓨터공학과</div>
-              <div>(2024.02 졸업)</div>
-            </div>
-            <div className="text-center">
               <div>청담 고등학교</div>
               <div>(2016.02 졸업)</div>
+            </div>
+            <div className="text-center">
+              <div>홍익대학교 컴퓨터공학과</div>
+              <div>(2024.02 졸업)</div>
             </div>
           </div>
         </div>
